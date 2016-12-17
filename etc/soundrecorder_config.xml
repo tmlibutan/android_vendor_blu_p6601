@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<statusbar>
+<!-- 是否设置状态栏颜色（FOR 8560） -->
+<soundrecorder id="statusbar">false</soundrecorder>
+<!-- 安装平台 高通： QCOM  MTK：MTK -->
+<soundrecorder id="platform">MTK</soundrecorder>
+<!-- 录音文件前缀 SUGAR项目： SUGAR  其他：RECORD -->
+<soundrecorder id="prefix">RECORD</soundrecorder>
+<!-- 系统是否支持OGG格式录音 -->
+<soundrecorder id="have_ogg_support">false</soundrecorder>
+<!-- 系统是否有 awbencode功能 -->
+<soundrecorder id="have_awbencode_feature">false</soundrecorder>
+<!-- 默认录音格式 高：HIGH，低:LOW -->
+<soundrecorder id="format">LOW</soundrecorder>
+</statusbar>

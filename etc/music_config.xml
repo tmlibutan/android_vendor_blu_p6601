@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<statusbar>
+<!-- 适用于状态栏一体化机器，TRUE是需要一体化效果，FALSE表示不需要一体化效果 -->
+<music id="is8400">FALSE</music>
+<!--TRUE 隐藏检测升级功能，FALSE 显示检测升级功能 -->
+<music id="is_hide_update">TRUE</music>
+<!-- ONLINE：网络版 LOCAL：本地版 -->
+<music id="local_or_online">LOCAL</music>
+<music id="sugar_or_odm">ODM</music>
+<!-- TRUE：显示设置铃声选项  FALSE：隐藏设置铃声选项-->
+<music id="show_set_ring">FALSE</music>
+<!-- RED：红色主题(For 9010) WHITE：白色主题(Others)-->
+<music id="splash_picture_color">WHITE</music>
+</statusbar>
+

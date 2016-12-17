@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--address-->
+    
+		<address_login>http://ota.tinno.com/tinnoota/login</address_login>
+    <address_check_version>http://ota.tinno.com/tinnoota/checkversion</address_check_version>
+    <address_download_full>http://ota.tinno.com/tinnoota/downloadfullota</address_download_full>
+    <address_download_delta>http://ota.tinno.com/tinnoota/download</address_download_delta>
+<!--  
+    <address_login>http://ota.sugar.cn/tinnoota/login</address_login>
+    <address_check_version>http://ota.sugar.cn/tinnoota/checkversion</address_check_version>
+    <address_download_full>http://ota.sugar.cn/tinnoota/downloadfullota</address_download_full>
+    <address_download_delta>http://ota.sugar.cn/tinnoota/download</address_download_delta>
+   -->   
+    <!--other-->
+    <driver_storage>true</driver_storage><!--reserved interface,donot care it!one driver storage or not,vlaue is true or false-->
+    <time_interval>2160</time_interval><!--default value 36*60 minutes-->
+    <sugar_skin>true</sugar_skin><!--common skin or sugar skin -->
+    
+</resources>

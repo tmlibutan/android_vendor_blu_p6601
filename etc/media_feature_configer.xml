@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mediaconfiger>
+    <!--MyosCamera begin-->
+		<camera id ="FEATURE_MEDIA_TOUCH_SHUTTER_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_SMILESHOT_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_SHUTTER_SOUND" value="true"/> 
+        <camera id ="FEATURE_MEDIA_CAMERA_FRONT_MIRROR_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_RESTORE_DEFAULT" value="true"/>		
+        <camera id ="FEATURE_VIDEO_MUTE_SUPPORTED" value="false"/>		
+        <camera id ="FEATURE_MEDIA_CAMERA_SET_VOLUME_KEY" value="false"/>		
+	    <camera id ="FEATURE_MEDIA_VOICE_CAPTURE_SUPPORTED" value="false"/>
+		
+		<!--new -->
+        <camera id ="FEATURE_MEDIA_CAMERA_STORAGE_SUPPORTED" value="false"/>		
+        <camera id ="FEATURE_MEDIA_ZSD_SUPPORTED" value="true"/>	
+        <camera id ="FEATURE_MEDIA_ANTI_FLICKER_SUPPORTED" value="true"/>		
+		<camera id ="FEATURE_MEDIA_CAMERA_HANDSHOT_SUPPORTED" value="false"/>
+        <camera id ="FEATURE_MEDIA_LIGHT_COMPENSATION_SUPPORTED" value="false"/> 
+        <camera id ="FEATURE_MEDIA_CONTINUOUS_ONOFF_SUPPORTED" value="false"/> 
+        <!--mode -->  
+        <camera id ="FEATURE_MEDIA_CAMERA_PROFESSIONAL_MODE_SUPPORTED" value="true"/>  
+        <camera id ="FEATURE_MEDIA_CAMERA_BEAUTYSHOT_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_NIGHTSHOT_SUPPORTED" value="true"/>           
+        <camera id ="FEATURE_MEDIA_CAMERA_PANORAMA_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_WIDESELFIE_SUPPORTED" value="true"/>
+       
+	    <camera id ="FEATURE_MEDIA_CAMERA_HDR_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_PIPVIV_SUPPORTED" value="true"/>
+        <camera id ="FEATURE_MEDIA_CAMERA_SPORTS_MODE_SUPPORTED" value="true"/>             
+		<camera id ="FEATURE_FRONT_CAMERA_DEFAULT_FACEBEAUTY" value="false"/>
+	<!--other-->
+	<camera id ="FEATURE_MEDIA_CAMERA_VIDEO_FLASH_SUPPORTED" value="false"/>
+	<camera id ="FEATURE_MEDIA_VIDEO_CONTINUOUS_FOCUS_SUPPORTED" value="false"/>
+	<camera id ="FEATURE_MEDIA_CAMERA_AUTO_CLOSE_SUPPORTED" value="true"/>
+		
+        <!--defaultValue-->  
+		<!--on off-->                        
+        <camera id ="pref_shutter_touch_key" value="off"/>    
+		<!--on off-->                
+        <camera id ="pref_shutter_sound_key" value="on"/>   
+		<!--on off-->                        
+        <camera id ="pref_camera_recordlocation_key" value="off"/> 	
+     	<!--on off-->                
+        <camera id ="pref_capture_mirror_key" value="on"/> 
+		
+        <camera id ="FEATURE_MEDIA_BACK_PICTURESIZE_SUPPORTED" value="3264x2448,3328x1872"/>  
+        <camera id ="FEATURE_MEDIA_FRONT_PICTURESIZE_SUPPORTED" value="2560x1920,2560x1440"/>  
+        <camera id ="FEATURE_MEDIA_BACK_DEFAULT_PICTURESIZE" value="3328x1872"/>  
+        <camera id ="FEATURE_MEDIA_FRONT_DEFAULT_PICTURESIZE" value="2560x1440"/>   
+				
+		<!--480p=4 720p=5 1080p=6-->
+        <camera id ="pref_video_quality_key" value="4"/>   
+		<!--on off-->                
+        <camera id ="pref_camera_recordaudio_key" value="off"/>    
+		<!--zoom shoot volume-->                
+        <camera id ="pref_camera_volume_key" value="shoot"/>		
+		<!--on off-->                
+        <camera id ="pref_voice_key" value="off"/> 
+		<!--T card phone-->
+		<camera id ="pref_save_pos_key" value="T card"/>
+     
+		<!--on off-->                        
+        <camera id ="pref_camera_zsd_key_back" value="on"/>         
+        <camera id ="pref_camera_zsd_key_front" value="on"/>    
+        <!--auto 50hz 60hz-->        
+        <camera id ="pref_camera_antibanding_key" value="auto"/>  
+	<!--on off-->                
+        <camera id ="pref_face_detect_key_back" value="off"/>
+      	<!--0~10000-->                
+        <camera id ="TOUCH_SHUTTER_FOCUSED_DELAY" value="150"/>  
+		
+    <!--MyosCamera end-->
+
+    <!--Gallery begin-->
+        <camera id = "FEATURE_MEDIA_GALLERY_BEAUTYEDIT_SUPPORTED" value="true"/>
+	<camera id = "FEATURE_MEDIA_GALLERY_DEFAULT_TIMEPAGE_SUPPORTED" value="true"/>   
+	<camera id = "FEATURE_MEDIA_GALLERY_FILLSCREEN_SUPPORTED" value="true"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_SLIDEMUSIC_SUPPORTED" value="false"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_VIDEO_SLIDEVIEW_SUPPORTED" value="false"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_POSITION_PHONESTORAGE" value="/storage/sdcard0"/>   
+	<camera id = "FEATURE_MEDIA_GALLERY_POSITION_SDCARDSTORAGE" value="/storage/sdcard1"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_PROXIMITY_GESTURE_SUPPORTED" value="false"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_ENABLE_GESTURE_SETTINGS_ENABLED" value="enable_gesture_settings_enabled"/>   
+	<camera id = "FEATURE_MEDIA_GALLERY_PROMIXY_PHOTO_VIEW_ENABLED" value="promixy_photo_view_enabled"/>   
+        <camera id = "FEATURE_MEDIA_GALLERY_GIF_SUPPORTED" value="true"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_DRM_SUPPORTED" value="false"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_PRINT_SUPPORTED" value="true"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_SLIDEMUSIC_ANIMATIONS_SUPPORTED" value="false"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_TIMEPAGE_DISPLAY_PHOTOS_ONLY_SUPPORTED" value="true"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_USBOTG_PATH" value="/storage/usbotg"/>
+        <camera id = "FEATURE_MEDIA_GALLERY_SINGLEPAGE_SLIDESHOW_SUPPORTED" value="true"/> 
+    <!--Gallery end-->
+
+<!--FaceBeauty begin-->
+ <camera id ="FEATURE_FACEBEAUTY_LITI_SUPPORTED" value="true"/>	
+<!--FaceBeauty end-->
+
+
+</mediaconfiger>
